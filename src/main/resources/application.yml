@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 73232967658-rk4835i7p9bgldp97n32vma7923mk5gq.apps.googleusercontent.com
+            client-secret: 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
+            scope: openid,profile
+        
+
+
+server:
+  port:
+    5454
+
+
