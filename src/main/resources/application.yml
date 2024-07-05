@@ -10,8 +10,8 @@ spring:
         
 
 
-server:
-  port:
-    5454
+# server:
+#   port:
+#     5454
 
 
