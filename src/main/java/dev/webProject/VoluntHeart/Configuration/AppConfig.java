@@ -54,10 +54,9 @@ public class AppConfig {
     private CorsConfigurationSource corsConfigurationSource() {
         return request -> {
             CorsConfiguration cfg = new CorsConfiguration();
-            
             cfg.addAllowedOriginPattern("*");
             cfg.setAllowedMethods(Collections.singletonList("*"));
-            cfg.setAllowedHeaders(Arrays.asList("*")); 
+            cfg.setAllowedHeaders(Arrays.asList("*"));
             cfg.setAllowCredentials(true);
             cfg.setExposedHeaders(Arrays.asList("Authorization"));
             cfg.setMaxAge(3600L);
